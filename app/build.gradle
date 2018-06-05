@@ -6,8 +6,8 @@ android {
         applicationId "com.example.lwq.jenkindemo"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode project.VERSION_CODE as int
+        versionName project.VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
