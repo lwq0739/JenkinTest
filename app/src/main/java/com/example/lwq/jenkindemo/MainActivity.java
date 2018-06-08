@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("wlqlwqlwq");
         System.out.println("wlqlwqlwq");
         System.out.println("wlqlwqlwq");
+        System.out.println("wlqlwqlwq");
         Toast.makeText(this,"dev测试",Toast.LENGTH_SHORT).show();
     }
 }
