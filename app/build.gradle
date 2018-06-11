@@ -16,14 +16,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "student_" + variant.name + "_" + variant.versionName + ".apk"
+                    outputFileName = variant.name + "_" + variant.versionName + ".apk"
                 }
             }
         }
         debug {
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "student_" + variant.name + "_" + variant.versionName + ".apk"
+                    outputFileName = variant.name + "_" + variant.versionName + ".apk"
                 }
             }
         }
