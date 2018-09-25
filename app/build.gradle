@@ -28,6 +28,25 @@ android {
             }
         }
     }
+    productFlavors{
+        google{
+            flavorDimensions "lwq"
+            resValue "string", "app_name", '"JenkinDemo_google"'
+            buildConfigField "String", "Api", '"www.google.com"'
+        }
+
+        baidu{
+            flavorDimensions "lwq"
+            resValue "string", "app_name", '"JenkinDemo_baidu"'
+            buildConfigField "String", "Api", '"www.baidu.com"'
+        }
+
+        sougou{
+            flavorDimensions "lwq"
+            resValue "string", "app_name", '"JenkinDemo_sougou"'
+            buildConfigField "String", "Api", '"www.sougou.com"'
+        }
+    }
 }
 
 dependencies {
